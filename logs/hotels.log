@@ -1,0 +1,55 @@
+2026-05-03 10:07:58 - Starting HotelApplication using Java 25.0.2 with PID 155044 (C:\Users\orlan\Documents\GitHub\proyecto-aplicacion-reserva-hotelera\backend-springboot-aplicacion-web-reserva-hotelera\hotel\target\classes started by orlan in C:\Users\orlan\Documents\GitHub\proyecto-aplicacion-reserva-hotelera\backend-springboot-aplicacion-web-reserva-hotelera\hotel)
+2026-05-03 10:07:58 - No active profile set, falling back to 1 default profile: "default"
+2026-05-03 10:07:58 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03 10:07:58 - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2026-05-03 10:07:58 - Tomcat initialized with port 8082 (http)
+2026-05-03 10:07:58 - Starting service [Tomcat]
+2026-05-03 10:07:58 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-05-03 10:07:59 - Initializing Spring embedded WebApplicationContext
+2026-05-03 10:07:59 - Root WebApplicationContext: initialization completed in 113 ms
+2026-05-03 10:07:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-03 10:07:59 - HHH000026: Second-level cache disabled
+2026-05-03 10:07:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03 10:07:59 - HikariPool-2 - Starting...
+2026-05-03 10:07:59 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e2752df
+2026-05-03 10:07:59 - HikariPool-2 - Start completed.
+2026-05-03 10:07:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03 10:07:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 10:07:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03 10:07:59 - LiveReload server is running on port 35729
+2026-05-03 10:07:59 - Tomcat started on port 8082 (http) with context path '/'
+2026-05-03 10:07:59 - Started HotelApplication in 0.294 seconds (process running for 218.31)
+2026-05-03 10:07:59 - Condition evaluation unchanged
+2026-05-03 10:08:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 10:08:10 - HikariPool-2 - Shutdown initiated...
+2026-05-03 10:08:10 - HikariPool-2 - Shutdown completed.
+2026-05-03 10:08:14 - Starting HotelApplication using Java 25.0.2 with PID 147728 (C:\Users\orlan\Documents\GitHub\proyecto-aplicacion-reserva-hotelera\backend-springboot-aplicacion-web-reserva-hotelera\hotel\target\classes started by orlan in C:\Users\orlan\Documents\GitHub\proyecto-aplicacion-reserva-hotelera\backend-springboot-aplicacion-web-reserva-hotelera\hotel)
+2026-05-03 10:08:14 - No active profile set, falling back to 1 default profile: "default"
+2026-05-03 10:08:14 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-03 10:08:14 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-03 10:08:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03 10:08:14 - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2026-05-03 10:08:14 - Tomcat initialized with port 8082 (http)
+2026-05-03 10:08:14 - Initializing ProtocolHandler ["http-nio-8082"]
+2026-05-03 10:08:14 - Starting service [Tomcat]
+2026-05-03 10:08:14 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-05-03 10:08:14 - Initializing Spring embedded WebApplicationContext
+2026-05-03 10:08:14 - Root WebApplicationContext: initialization completed in 596 ms
+2026-05-03 10:08:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-03 10:08:15 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-05-03 10:08:15 - HHH000026: Second-level cache disabled
+2026-05-03 10:08:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03 10:08:15 - HikariPool-1 - Starting...
+2026-05-03 10:08:15 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33981a75
+2026-05-03 10:08:15 - HikariPool-1 - Start completed.
+2026-05-03 10:08:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03 10:08:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 10:08:15 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-03 10:08:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03 10:08:15 - LiveReload server is running on port 35729
+2026-05-03 10:08:15 - Starting ProtocolHandler ["http-nio-8082"]
+2026-05-03 10:08:15 - Tomcat started on port 8082 (http) with context path '/'
+2026-05-03 10:08:15 - Started HotelApplication in 1.889 seconds (process running for 2.185)
+2026-05-03 10:08:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03 10:08:19 - HikariPool-1 - Shutdown initiated...
+2026-05-03 10:08:19 - HikariPool-1 - Shutdown completed.
