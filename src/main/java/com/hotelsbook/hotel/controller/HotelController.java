@@ -2,6 +2,7 @@ package com.hotelsbook.hotel.controller;
 
 import com.hotelsbook.hotel.dto.HotelAvailableDTO;
 import com.hotelsbook.hotel.response.ErrorResponse;
+import com.hotelsbook.hotel.service.CityService;
 import com.hotelsbook.hotel.service.HotelService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,15 +25,24 @@ public class HotelController {
 	@Autowired
     private HotelService hotelService;
 
+	@Autowired
+    private CityService cityService;
+
     @GetMapping("/available")
     public ResponseEntity<?> getAvailableHotelsWithServices(
             @RequestParam("startDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Date startDate,
             @RequestParam("endDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) Date endDate,
-            @RequestParam("cityId") Integer cityId) {
+            @RequestParam("cityName") String cityName) {
     	
     	try {
     	
 	    	logger.info("método getAvailableHotelsWithServices()");
+	    	
+	    	Integer cityId = cityService.getCityIdByName(cityName);
+	    	
+	    	if (cityId == 0) {
+	            return new ResponseEntity<>(new ErrorResponse(404, "No se encontraron ciudades"), HttpStatus.NOT_FOUND);
+	        }
 	    	
 	        List<HotelAvailableDTO> hotels = hotelService.getAvailableHotelsWithServicesAndReviews(startDate, endDate, cityId);
 	        
